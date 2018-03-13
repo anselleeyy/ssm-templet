@@ -1,7 +1,13 @@
 package com.ssm.bean;
 
-public class User {
+import java.io.Serializable;
 
+public class User implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3510033316879386833L;
 	private int id;
 	private String name;
 
